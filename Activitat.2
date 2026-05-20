@@ -1,0 +1,3 @@
+SELECT ExtractValue(xml_content, 'count(//employee[department/department_name="Operations"])') AS Total_Operacions
+FROM xml_employees 
+WHERE doc_name = 'Employees.xml';
