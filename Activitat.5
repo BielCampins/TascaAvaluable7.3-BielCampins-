@@ -1,0 +1,3 @@
+SELECT ExtractValue(xml_content, '//employee[title="Head Teller"]/assigned_branch/assigned_branch_city') AS Ciutats_Head_Teller
+FROM xml_employees 
+WHERE doc_name = 'Employees.xml';
