@@ -1,0 +1,3 @@
+SELECT ExtractValue(xml_content, '//employee[superior_emp_id="4"]/first_name') AS Empleats_Sota_Id_4
+FROM xml_employees 
+WHERE doc_name = 'Employees.xml';
