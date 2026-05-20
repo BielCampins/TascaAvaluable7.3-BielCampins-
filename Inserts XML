@@ -1,0 +1,8 @@
+INSERT INTO xml_employees (doc_name, xml_content)
+VALUES ('Employees.xml', LOAD_FILE('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Employees.xml'));
+
+INSERT INTO xml_accounts (doc_name, xml_content)
+VALUES ('Accounts.xml', LOAD_FILE('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Accounts.xml'));
+
+INSERT INTO xml_transactions (doc_name, xml_content)
+VALUES ('Transactions.xml', LOAD_FILE('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Transactions.xml'));
